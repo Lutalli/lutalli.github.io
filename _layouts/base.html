@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+
+        <link href="/css/style.css" type="text/css" rel="stylesheet" />
+        <link href="/res/favicon.ico" type="image/x-icon" rel="icon" />
+
+        <script src="/js/jquery.slim.min.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+        <script>
+            $(window).on('load', function() {
+                $("body").removeClass("preload");
+            });
+        </script>
+    </head>
+
+    <body class="preload">
+        <div class="container">
+            <a class="top-title" href="/">{{ page.top_title }}</a>
+            <hr />
+            {{ content }}
+        </div>
+    </body>
+</html>
