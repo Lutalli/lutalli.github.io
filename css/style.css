@@ -35,21 +35,12 @@ hr {
     color: #eee;
 }
 
-.announce {
-    font-size: 26px;
-}
-
 .serif {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .mono {
     font-family: Monaco, "DejaVu Sans Mono", "Fira Mono", "Ubuntu Mono", "Consolas", "Courier New", monospace;
-}
-
-.mark {
-    color: #aaa;
-    font-weight: 700;
 }
 
 .container {
