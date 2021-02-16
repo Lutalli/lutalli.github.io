@@ -50,6 +50,7 @@ hr {
     top: 40%;
     transform: translateY(-50%);
     position: relative;
+    word-break: break-all;
 }
 
 .top-title {
@@ -74,6 +75,7 @@ hr {
     font-size: 34px;
     color: #fefefe;
     margin: 30px 0px 30px 50px;
+    white-space: pre;
 }
 
 .great-link:hover {
@@ -97,19 +99,19 @@ hr {
 }
 
 #tumblr-link-ii {
-    color: #f0f0f0;
+    color: #e95a5a;
 }
 
 #tumblr-link-ii:hover {
-    color: #a7a7a7;
+    color: #a33d3d;
 }
 
 #github-link {
-    color: rgb(202, 93, 29);
+    color: rgb(152, 25, 249);
 }
 
 #github-link:hover {
-    color: rgb(134, 64, 23);
+    color: rgb(117, 22, 189);
 }
 
 #twitter-link {
