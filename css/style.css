@@ -31,7 +31,7 @@ hr {
 }
 
 ::selection {
-    background-color: #006a6a;
+    background-color: #00a290;
     color: #eee;
 }
 
@@ -86,4 +86,52 @@ hr {
 	-ms-transition: none !important;
 	-o-transition: none !important;
 	transition: none !important;
+}
+
+#tumblr-link-i {
+    color: #03d46c;
+}
+
+#tumblr-link-i:hover {
+    color: #04924b;
+}
+
+#tumblr-link-ii {
+    color: #f0f0f0;
+}
+
+#tumblr-link-ii:hover {
+    color: #a7a7a7;
+}
+
+#github-link {
+    color: rgb(202, 93, 29);
+}
+
+#github-link:hover {
+    color: rgb(134, 64, 23);
+}
+
+#twitter-link {
+    color: rgb(0, 153, 255);
+}
+
+#twitter-link:hover {
+    color: rgb(3, 99, 163);
+}
+
+#pixiv-link {
+    color: rgb(18, 221, 211);
+}
+
+#pixiv-link:hover {
+    color: rgb(15, 155, 148);
+}
+
+#bilibili-link {
+    color: rgb(221, 61, 123);
+}
+
+#bilibili-link:hover {
+    color: rgb(161, 45, 89);
 }
