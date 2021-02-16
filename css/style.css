@@ -50,7 +50,6 @@ hr {
     top: 40%;
     transform: translateY(-50%);
     position: relative;
-    word-break: break-all;
 }
 
 .top-title {
@@ -75,7 +74,6 @@ hr {
     font-size: 34px;
     color: #fefefe;
     margin: 30px 0px 30px 50px;
-    white-space: pre;
 }
 
 .great-link:hover {
